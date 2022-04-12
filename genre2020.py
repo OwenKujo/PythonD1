@@ -19,5 +19,6 @@ for k in range (len(allsingname)):
 print(allsingname)
 explode = [0,0,0.2,0,0,0,0]
 color = ["#ed281a","#ebd61c","#2aa0c7","#59c72a","#7d2a79","#2ac7c2","#e864d6"]
-plt.pie(allsing,labels=allsingname,colors=color,shadow=True,explode=explode)
+plt.pie(allsing,labels=allsingname,colors=color,shadow=True,explode=explode,autopct='%1.1f%%')
+plt.title("My Top2020 Playlist Genre")
 plt.show()
