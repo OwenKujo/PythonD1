@@ -27,8 +27,9 @@ colors = ["#1d56b3","#cf1717","#e0e0e0","#10b31b","#d4d40f","#f2a0a0","#06188f",
 labeln = ["English","Canadian","American","Other"]
 print(testf)
 plt.bar(allnatname,allnat,width=0.55,color = colors,)
-plt.title("Artist Nationality")
+plt.title("Artist Nationality in my top2021 playlist")
 plt.ylabel('Number of song by artist nationality')
+plt.xlabel("Nationality Name(s)")
 plt.grid()
 plt.show()
 
