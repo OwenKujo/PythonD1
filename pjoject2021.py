@@ -32,7 +32,7 @@ colors = ("#ed281a","#ba5211","#edc61a","#59c72a","#7d2a79","#2ac7c2","#2aa0c7",
 print(test)
   #print(allsinger)
 print(f)
-plt.pie(f,explode=explode,labels=labeln,shadow=True,startangle=5,colors=colors)
+plt.pie(f,explode=explode,labels=labeln,shadow=True,startangle=5,colors=colors,autopct='%1.1f%%')
 plt.title("Artist")
 plt.legend()
 plt.show()

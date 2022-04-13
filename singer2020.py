@@ -29,6 +29,6 @@ explode = [0,0,0,0,0,0,0,0,0,0,0,0,0.2,0.2,0]
 print(test2)
 print(f2)
 print(singcount2)
-plt.pie(f2,explode=explode,colors= color,shadow=True,labels=labels,startangle=300)
+plt.pie(f2,explode=explode,colors= color,shadow=True,labels=labels,startangle=300,autopct='%1.1f%%')
 plt.title("Artist Names")
 plt.show()
